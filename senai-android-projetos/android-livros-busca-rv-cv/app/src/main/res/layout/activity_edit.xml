@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senai.sp.android_livros_busca.view.EditActivity">
+
+    <ImageView
+        android:id="@+id/ivCapaLivro"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilNomeLivro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCapaLivro">
+
+        <EditText
+            android:id="@+id/etNomeLivro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Livro" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilAutorLivro"
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilNomeLivro">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etAutorLivro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Autor do Livro" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilLancamentoLivro"
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilAutorLivro">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etLancamentoLivro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data de Lançamento" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSalvarLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:text="Salvar"
+        app:layout_constraintEnd_toEndOf="@+id/tilLancamentoLivro"
+        app:layout_constraintTop_toBottomOf="@+id/tilLancamentoLivro" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">android-pokemon</string>
+    <string name="btnBuscar">Buscar</string>
+</resources>
