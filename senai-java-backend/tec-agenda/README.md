@@ -11,6 +11,7 @@ http://localhost:8080/
 
 ### GET /api/contatos
 
+```json
 [
     {
         "idContato": 1,
@@ -33,9 +34,11 @@ http://localhost:8080/
         "ratingBar": 3
     }
 ]
+```
 
 ### GET /api/contatos/1
 
+```json
 {
     "idContato": 1,
     "nome": "Nome A",
@@ -46,9 +49,11 @@ http://localhost:8080/
     "foto": null,
     "ratingBar": 5
 }
+```
 
 ### POST /api/contatos
 
+```json
 {
     "nome": "Nome A",
     "telefone": "12345678",
@@ -58,11 +63,13 @@ http://localhost:8080/
     "foto": null,
     "ratingBar": 5
 }
+```
 
 ### DELETE /api/contatos/1
 
 ### PUT /api/contatos/1
 
+```json
 {
     "nome": "Nome A",
     "telefone": "12345678",
@@ -72,5 +79,6 @@ http://localhost:8080/
     "foto": null,
     "ratingBar": 5
 }
+```
 
 ### CTRL+C para parar a aplicação.
