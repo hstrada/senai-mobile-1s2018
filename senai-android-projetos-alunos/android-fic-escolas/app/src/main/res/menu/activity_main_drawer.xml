@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_listagem_alunos"
+            android:icon="@drawable/ic_list_black_18px"
+            android:title="Listar Aluno" />
+        <item
+            android:id="@+id/nav_adicionar_aluno"
+            android:icon="@drawable/ic_playlist_add_black_24dp"
+            android:title="Adicionar Aluno" />
+        <item
+            android:id="@+id/nav_configuracoes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configurações" />
+    </group>
+
+</menu>

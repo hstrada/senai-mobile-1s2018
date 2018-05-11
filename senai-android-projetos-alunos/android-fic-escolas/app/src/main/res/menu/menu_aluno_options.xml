@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuAlunoEditar"
+        android:title="Editar"/>
+
+    <item
+        android:id="@+id/menuAlunoMostrarMapa"
+        android:title="Visualizar Mapa" />
+
+    <item
+        android:id="@+id/menuAlunoDeletar"
+        android:title="Deletar"/>
+
+</menu>
