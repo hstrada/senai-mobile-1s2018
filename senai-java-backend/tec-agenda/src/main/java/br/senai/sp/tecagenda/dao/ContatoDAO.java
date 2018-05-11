@@ -15,8 +15,6 @@ public class ContatoDAO {
 
 		contatos.add(new Contato(1L, "Nome A", "12345678", "Endereço A", "a@a.a", "http://www.facebook.com/a", null, 5));
 		contatos.add(new Contato(2L, "Nome B", "12345678", "Endereço B", "b@b.b", "http://www.facebook.com/b", null, 3));
-		contatos.add(new Contato(3L, "Nome C", "12345678", "Endereço C", "c@c.c", "http://www.facebook.com/c", null, 4));
-		contatos.add(new Contato(4L, "Nome D", "12345678", "Endereço D", "d@d.d", "http://www.facebook.com/d", null, 2));
 		
 	}
 
